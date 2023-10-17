@@ -31,7 +31,7 @@ body{
 
 .Temperature-icon{
     font-size: 45px;
-    color: black;
+    color: #fff;
 }
 
 h1{
@@ -40,7 +40,7 @@ h1{
     font-size: 30px;
 }
 
-#celsius, #fahrenheit{
+#celsius, #fahrenheit, #kelvin{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -66,6 +66,10 @@ input::-webkit-inner-spin-button{
     -webkit-appearance: none;
 }
 
+/* for Mozila firefox */
+input{
+    -moz-appearance: textfield;
+}
 
 
 .icon{
@@ -75,7 +79,7 @@ input::-webkit-inner-spin-button{
     padding: 0 5px;
     text-align: center;
     font-size: 30px;
-    background: navy;
+    background: #013160;
     color: #fff;
     border-radius: 0 8px 8px 0;
 }
@@ -102,7 +106,3 @@ input::-webkit-inner-spin-button{
     background: #000;
     color: #fff;
 }
-p{
-    float:right;
-        
-    }
